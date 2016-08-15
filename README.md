@@ -28,6 +28,6 @@ Windows:
 
 Jacob Vangore – jvangore31@gmail.com
 
-[https://github.com/jvangore31
+https://github.com/jvangore31
 
 
