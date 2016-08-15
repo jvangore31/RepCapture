@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rep Capture</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bench_data_entry">BenchDataEntry</string>
+    <string name="BENCH">Bench Press</string>
+    <string name="SQUAT">Squat</string>
+    <string name="DEADLIFT">Deadlift</string>
+    <string name="OVERHEAD">Overhead Press</string>
+</resources>

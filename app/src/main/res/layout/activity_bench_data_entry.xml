@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jacob.repcapture.BenchDataEntry"
+    android:id="@+id/activity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextWeight"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Weight (lbs)"
+        android:id="@+id/textView"
+        android:layout_below="@+id/editTextWeight"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:text="START"
+        android:id="@+id/start_Button"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick_Start"
+        android:nestedScrollingEnabled="false" />
+
+    <Button
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:text="STOP"
+        android:id="@+id/stop_Button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick_Stop"
+        android:nestedScrollingEnabled="false" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/stop_Button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Enter weight and press start to begin the counter"
+        android:nestedScrollingEnabled="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Records"
+        android:id="@+id/button"
+        android:onClick="onClick_ViewAll"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/editTextWeight"
+        android:layout_alignStart="@+id/editTextWeight"
+        android:layout_alignRight="@+id/editTextWeight"
+        android:layout_alignEnd="@+id/editTextWeight"
+        android:layout_below="@+id/textView2" />
+
+</RelativeLayout>
